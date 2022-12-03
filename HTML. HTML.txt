@@ -1,0 +1,19 @@
+ <!doctype HTML>
+<HTML>
+<HEAD>
+<TITLE> this is title </TITLE>
+</HEAD>
+<BODY>
+<H1> the input elements </H1>
+<form action="action_page.php" method="get">
+<label for="fname">first name:</label><br>
+<input type="text" id="fname" name="fname"><br><br>
+<lable for="pwd">password:</lable><br>
+<input type="password" id="pwd" name="password"><br>
+<textarea name="message" rows="10" cols="30">the cat
+was playing in the garden.</textarea>
+<br>
+<label for="cars">choose a carb:</label>
+<select id="cars" name="cars">
+</BODY>
+</HTML>

@@ -1,0 +1,32 @@
+<html>
+<body>
+<table id="mytable" border="1" width="50%" align="center">
+<tr>
+<th>
+id
+</th>
+<th>name</th></tr>
+<tr>
+<td>101</td>
+<td> ravi</td>
+</tr>
+<tr>
+<td>102</td>
+<td>vijay</td>
+</tr>
+</table>
+<button type="button"
+onclick=change_table();>change color</button>
+<button type="button"
+onclick=delete_table();>delete row</button>
+<script>
+function delete_table()
+{
+var x=document.getElementById("mytable");
+x.deleterow(0);
+}
+function change_table()
+{
+var x=document.getElementById("mytable");
+x.style.color="yellow"
+} 
